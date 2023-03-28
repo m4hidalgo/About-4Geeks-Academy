@@ -1,0 +1,112 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+template: "online-cv"
+skin: "orange"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Miguel Angel
+    last_name: Hidalgo
+    
+    # Define yourself in 4-5 words
+    motto: Practise makes perfect
+    
+    # focus
+    focus: Killing Bad Boys
+    
+    # You have 1 paragraph to make a great impression, summarize your career.
+    summary: |
+      I am a proactive and enthusiastic person, I have always been a person committed to the goals that I set myself, 
+      and I like to face new challenges that allow me to grow both personally and professionally. 
+      I consider that one of my greatest strengths is my ability to work in a team, since I like to collaborate with my colleagues and learn from them. 
+      In addition, I am a very organized and detailed person, which allows me to carry out my tasks efficiently and with high-quality results.
+      I am sure that my positive attitude and my commitment to work will allow me to add value and help achieve the company's objectives. 
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/men/24.jpg
+
+    # Contact Information
+    email: test@test.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: alandoe #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: m4hidalgo
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobies
+    interests:
+      - item: Reading
+
+      - item: Gaming
+
+      - item: Coding
+
+# Your previous education
+education:
+    - degree: 4Geeks Academy Full-Stack Development Program
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2022 - 2023
+      details: |
+        HTML5, CSS3, JavaScript, Bootstrap, React.js, Python, Flask, SQL Alchemy, REST API
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Web Developer
+      time: 2014 - 2015
+      company: aMAZEing Ideas S.L.
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Front-end development, WordPress Template Customization, Adobe Photoshop Basics
+    
+# Your project portfolio
+projects:
+    intro: >
+      These are some of my projects!
+    assignments:
+      - title: Pet A Pet
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "https://github.com/beaesreal/pets-app"
+        tagline: "A responsive website template designed to help pet owners to organize the daily care of their pets!"
+
+skills:
+    toolset:
+      - name: Python
+        level: 98%
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: React.js
+        level: 98%
+
+      - name: HTML5 & CSS3
+        level: 95%
+
+      - name: Bootstrap
+        level: 85%
+
+      - name: Flask & SQL Alchemy
+        level: 60%
